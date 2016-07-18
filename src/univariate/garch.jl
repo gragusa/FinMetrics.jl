@@ -220,6 +220,6 @@ getgarchparms(g) = (g.p, g.q, g.σ²₀[1], g.ω[1], g.α, g.β)
 setinitialvar(g, s0::Float64) = g.σ²₀[:] = s0
 
 
-export garch, GARCH, setinitialvar
+export garch, GARCH, setinitialvar, getgarchparms
 
 
